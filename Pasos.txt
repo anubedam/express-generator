@@ -1,0 +1,15 @@
+Crear una aplicación con Express Generator
+******************************************
+
+- npx express-generator -> Ejecuta la creación de Express Generator 
+                           (dentro del directorio donde queramos ejecutar la aplicación).
+
+  Te crea un esqueleto para la aplicación.
+
+- Para ejecutar la aplicación en Windows:
+  1) Instalar los paquetes: npm install
+  2) Lanzar el servidor:
+     * cmd -> set DEBUG=myapp:* & npm start
+     * Power shell -> $env:DEBUG='myapp:*'; npm start
+     * Acceder a la página http://localhost:3000/
+
